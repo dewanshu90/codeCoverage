@@ -1,0 +1,11 @@
+langgraph>=0.0.40
+openai
+python-dotenv
+GitPython
+langchain-community
+langchain-core
+langchain-openai
+tree-sitter
+tree-sitter-languages
+aiofiles
+asyncio

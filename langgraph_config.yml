@@ -1,0 +1,44 @@
+# Define a graph of three agents
+# graph:
+#   id: coverage_graph
+#   nodes:
+#     - id: master_agent
+#       type: Agent
+#       llm:
+#         provider: openai
+#         model: gpt-4o
+#       verbose: true
+#       tools:
+#         - name: git_clone_agent
+#           type: AgentReference
+#         - name: code_coverage_agent
+#           type: AgentReference
+
+#     - id: git_clone_agent
+#       type: Agent
+#       llm:
+#         provider: openai
+#         model: gpt-4o
+#       verbose: true
+#       tools:
+#         - name: git_clone_tool
+#           type: Tool
+
+#     - id: code_coverage_agent
+#       type: Agent
+#       llm:
+#         provider: openai
+#         model: gpt-4o
+#       verbose: true
+#       tools:
+#         - name: code_coverage_tool
+#           type: Tool
+
+# # Define tools globally
+# tools:
+#   - id: git_clone_tool
+#     module: src.tools.git_tool
+#     function: clone_repo
+#   - id: code_coverage_tool
+#     module: src.tools.jacoco_tool
+#     function: run_jacoco

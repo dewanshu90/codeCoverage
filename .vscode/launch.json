@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Master Agent",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/master_agent.py",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
