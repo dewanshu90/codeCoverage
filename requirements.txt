@@ -9,3 +9,4 @@ tree-sitter
 tree-sitter-languages
 aiofiles
 asyncio
+pygments==2.18.0
